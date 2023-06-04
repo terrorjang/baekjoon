@@ -14,7 +14,6 @@ public class MaximumSubarray {
 
         int T = Integer.parseInt(br.readLine());
 
-        StringBuffer output = new StringBuffer();
         for (int i = 0; i < T; i++) {
             int N = Integer.parseInt(br.readLine());
             int[] arr = new int[N];
